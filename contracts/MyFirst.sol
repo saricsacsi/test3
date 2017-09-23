@@ -1,6 +1,6 @@
 pragma solidity ^0.4.4;
 
-contract Adoption {
+contract MyFirst {
 
     address[16] public adopters;
 
