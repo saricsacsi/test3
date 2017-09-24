@@ -7,12 +7,12 @@ contract Befogadas {
 function befogad(uint petId) public returns (uint) {
     require(petId >= 0 && petId <= 15);
 
-    befogado[petId] = msg.sender;
+    befogadok[petId] = msg.sender;
 
     return petId;
 }
 
-function getBefogao() public returns (address[16]) {
+function getBefogado() public returns (address[16]) {
   return befogadok;
 }
 
