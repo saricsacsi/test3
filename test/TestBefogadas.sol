@@ -8,7 +8,7 @@ contract TestBefogadas {
   Befogadas befogadas = Befogadas(DeployedAddresses.Befogadas());
 
   function testUserCanDoSomething() {
-  uint returnedId = befogadas.befogad(8);
+  uint returnedId = befogadas.befogad(7);
 
   uint expected = 7;
 
@@ -28,7 +28,7 @@ function testGetValamiAddressValamiIDInArray() {
 
   address[16] memory befogadas = Befogadas.getBefogado();
 
-  Assert.equal(befogadok[8], expected, "Owner of pet ID 8 should be recorded.");
+  Assert.equal(befogadok[7], expected, "Owner of pet ID 8 should be recorded.");
 }
 
 }
