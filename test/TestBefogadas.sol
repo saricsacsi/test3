@@ -26,9 +26,9 @@ function testGetValamiAddressValamiID() {
 function testGetValamiAddressValamiIDInArray() {
   address expected = this;
 
-  address[16] memory befogadas = Befogadas.getBefogado();
+  address[16] memory befogadok = Befogadas.getBefogado();
 
-  Assert.equal(befogadok[7], expected, "Owner of pet ID 8 should be recorded.");
+  Assert.equal(befogadok[7], expected, "Owner of pet ID 7 should be recorded.");
 }
 
 }
