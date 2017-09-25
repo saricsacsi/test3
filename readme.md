@@ -1,1 +1,0 @@
-legyen szoveg
